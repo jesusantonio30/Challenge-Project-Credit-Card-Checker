@@ -25,7 +25,7 @@ const batch = [valid1, valid2, valid3, valid4, valid5, invalid1, invalid2, inval
 
 // VALIDATE CREDIT CARD FUNCTION ===========================================
 
-// Returns 'True' when arr contains valid digits and 'False' when invalid ** SHOULD NOT MUTATE ORIGINAL ARRAY **
+// Returns 'Valid' when arr contains valid digits and 'Invalid' when invalid ** SHOULD NOT MUTATE ORIGINAL ARRAY **
 const validateCred = arr => {
 
   // Use spread operator to create shallow copy of OG array, doesn't mutate OG.
