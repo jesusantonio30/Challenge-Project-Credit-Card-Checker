@@ -18,8 +18,8 @@ This project is designed to work with arrays of credit card numbers represented 
 
 Validates a single credit card number using the Luhn algorithm.
 
-- **Input**: An array of numbers representing a credit card.
-- **Output**: `"Valid"` if the card is valid, `"Invalid"` otherwise.
++ **Input**: An array of numbers representing a credit card.
++ **Output**: `"Valid"` if the card is valid, `"Invalid"` otherwise.
 
 #### Example:
 ```javascript
@@ -27,16 +27,17 @@ validateCred([4, 5, 3, 9, 6, 7, 7, 9, 0, 8, 0, 1, 6, 8, 0, 8]);
 // Output: "Valid"
 ```
 
-### idInvalidCardCompanies()
+### `idInvalidCardCompanies()`
   Identifies the companies associated with invalid credit card numbers.
   
-    + Input: An array of invalid credit card numbers.
-    + Output: An array of company names.
-    + Supported Companies:
-      + Amex (starting digit: 3)
-      + Visa (starting digit: 4)
-      + Mastercard (starting digit: 5)
-      + Discover (starting digit: 6)
++ Input: An array of invalid credit card numbers.
++ Output: An array of company names.
++ Supported Companies:
++ Amex (starting digit: 3)
++ Visa (starting digit: 4)
++ Mastercard (starting digit: 5)
++ Discover (starting digit: 6)
+
 ####Example:
 ```javascript
       idInvalidCardCompanies([[3, 4, 4, 8, ...], [5, 3, 8, 2, ...]]); // Output: ["Amex", "Mastercard"]
@@ -58,7 +59,7 @@ const invalid2 = [5, 7, 9, 5, 5, 9, 3, 3, 9, 2, 1, 3, 4, 6, 4, 3];
 ```
 
 ## Technologies Used
-  + Language: JavaScript (ES6+)
++ Language: JavaScript (ES6+)
 
 Date: 1/19/2025
 
