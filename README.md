@@ -61,7 +61,7 @@ const invalid2 = [5, 7, 9, 5, 5, 9, 3, 3, 9, 2, 1, 3, 4, 6, 4, 3];
 ## Technologies Used
 + Language: JavaScript (ES6+)
 
-Date: 02/17/2025
+Date: 02/19/2025
 
 
 
